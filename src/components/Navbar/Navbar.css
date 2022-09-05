@@ -1,0 +1,41 @@
+nav {
+    background-color: #383535;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+
+.logout-btn {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff3232;
+    margin: auto 0;
+    border-radius: 2px;
+    color: #ff3232;
+    cursor: pointer;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.logout-btn:hover {
+    background-color: #ff3232;
+    color: #fff;
+}
+ .activeLink {
+    border-bottom: 1px solid #fff;
+ }
