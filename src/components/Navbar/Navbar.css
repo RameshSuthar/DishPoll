@@ -36,6 +36,37 @@ li {
     background-color: #ff3232;
     color: #fff;
 }
- .activeLink {
-    border-bottom: 1px solid #fff;
- }
+.activeLink {
+   border-bottom: 1px solid #fff;
+}
+
+.left-column {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: small;
+    gap: 20px;
+}
+
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+p {
+    margin: 2px 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    li {
+        font-size: 1em;
+    }
+    nav {
+        padding: 0 10px;
+    }
+}

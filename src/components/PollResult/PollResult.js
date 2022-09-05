@@ -1,7 +1,11 @@
-const PollResult = () => {
+import DishItem from "../DishItem/DishItem";
+
+const PollResult = ({list, selectedDishes}) => {
+    const dishList = list.map((item, index) => <DishItem item={item} selectedDishes={selectedDishes} resultPage key={item.id} rank={index}/>);
+
     return (
         <>
-            <h1>Poll Result</h1>
+            { list.length > 0 && dishList }
         </>
     )
 }

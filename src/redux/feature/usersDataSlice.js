@@ -45,9 +45,9 @@ const initialState = [
 
 /** Action payload body which will be dispatched from the component
  * action.payload = {
- *  loggedInUserId,
- *  dishId,
- *  preference
+ *  loggedInUserId, ----> userId of the current loggedIn user
+ *  dishId, ----> dishId, which user has selected
+ *  preference ----> preference number, which user has given to the current selected dish
  * }
  */
 
@@ -58,7 +58,7 @@ export const usersDataSlice = createSlice({
     selectAndSetUserPreference: function(state, action) {
         //find the index of the user who is currently loggedIn.
         const ind = state.findIndex(user => user.id === action.payload.loggedInUserId);
-
+        console.log(action.payload);
         if(action.payload.preference === 'first') {
             state[ind].firstPref = action.payload.dishId;
             //If the current selected dish id is already been selected for any other preference, 

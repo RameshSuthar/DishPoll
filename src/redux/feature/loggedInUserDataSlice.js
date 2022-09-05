@@ -2,7 +2,8 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     username: null,
-    isLoggedIn: false
+    isLoggedIn: false,
+    userId: null
 }
 
 /** Action payload body which will be dispatched from the component
@@ -16,12 +17,13 @@ export const loggedInUserDataSlice = createSlice({
   initialState,
   reducers: {
     login: function(state, action) {
-        console.log(action);
         state.username = action.payload.username;
+        state.userId = action.payload.id;
         state.isLoggedIn = true;
     },
     logout: function(state, action) {
         state.username = null;
+        state.userId = null;
         state.isLoggedIn = false;
   },
 }

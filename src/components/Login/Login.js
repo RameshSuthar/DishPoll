@@ -26,7 +26,7 @@ const Login = () => {
         if(index < 0 || index > users.length - 1) {
             alert('Please provide the valid credentials');
         } else {
-            dispatch(login({username: users[index].userName}));
+            dispatch(login({username: users[index].userName, id: users[index].id}));
             navigate("/", {replace: true});
         }
         setUsername('');

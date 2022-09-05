@@ -1,10 +1,8 @@
+import DishItem from "../DishItem/DishItem";
+
 const DishList = ({list}) => {
 
-    const dishList = list.map(item => {
-        return (
-            <div>{item.dishName}</div>
-        );
-    })
+    const dishList = list.map(item => <DishItem item={item} />)
 
     return (
         <>
