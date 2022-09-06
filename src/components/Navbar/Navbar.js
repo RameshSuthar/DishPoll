@@ -11,7 +11,7 @@ const Navbar = ({currentTab, onTabChange}) => {
                 <li className={currentTab === "dishlist" ? "activeLink" : ""} onClick={() => {onTabChange("dishlist")}}>Dish list</li>
                 <li className={currentTab === "pollresult" ? "activeLink" : ""} onClick={() => {onTabChange("pollresult")}}>Poll result</li>
             </ol>
-            <div className="left-column">
+            <div className="right-column">
                 <div className="user-detail">
                     <img src="./icons8-user-24.png" width="24px" height="24px" alt="user-avatar"/>
                     <p>{loggedInUser.username[0].toUpperCase() + loggedInUser.username.substring(1)}</p>

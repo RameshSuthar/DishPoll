@@ -5,7 +5,7 @@ const PollResult = ({list, selectedDishes}) => {
 
     return (
         <>
-            { list.length > 0 && dishList }
+            { (list.length > 0 ? dishList : <h2 className="msg">No Dishes List found in DB...</h2>) }
         </>
     )
 }

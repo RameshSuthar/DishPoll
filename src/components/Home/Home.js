@@ -13,7 +13,7 @@ const Home = () => {
     const [error, setError] = useState(null);
     const [activeTab, setActiveTab] = useState('dishlist');
     //This list will have all the dishlist item object with one new property which is result(to store the poll result)
-    const [dishListWithResult, setDishListWithResult] = useState(null); 
+    const [dishListWithResult, setDishListWithResult] = useState([]); 
     const [currUserSelectedList, setCurrUserSelectedList] = useState(null);
 
     useEffect(() => {
