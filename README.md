@@ -34,33 +34,33 @@
     <li>username: pandhya, password: hardhik</li>
     <li>username: jadeja, password: ravindra</li>
     </ol>
-    <img src="./screenshots/login-screen.png">
+    <img src="./public/screenshots/login-screen.PNG">
     </li>
     <li>
     <p> The details of the current logged in user will be displayed at the right top corner.
     </p>
-    <img src="./screenshots/currentUser.png">
+    <img src="./public/screenshots/currentUser.png">
     </li>
     <li>
     <p> Once you successfully login, the home page will open with default tab as Dish List. which list all the dishes.
     </p>
-    <img src="./screenshots/defaultTab.png">
+    <img src="./public/screenshots/defaultTab.png">
     </li>
     <li>
     <p> Each dish will have 3 preference number, user will have an option to select upto three dishes and can give the preference number as 1, 2 or 3. The dish with preference number 1 will have 30 points. The dish with preference number 2 will have 20 points and The dish with preference number 3 will have 10 points. 
     </p>
-    <img src="./screenshots/preference.png">
-    <img src="./screenshots/selectedPreference.png">
+    <img src="./public/screenshots/preference.png">
+    <img src="./public/screenshots/selectedPreference.png">
     </li>
     <li>
     <p> After successful polling, the user can check the polling result on "poll result" tab.
     </p>
-    <img src="./screenshots/resultPage.png">
+    <img src="./public/screenshots/resultPage.png">
     </li>
     <li>
     <p> You can perform polling for other users. By clicking on the logout button as shown in the image below. Logging in again using any of the credentials in point 1.
     </p>
-    <img src="./screenshots/logout.png">
+    <img src="./public/screenshots/logout.png">
     </li>
     <li>
     <p> Now to understand polling results,
@@ -72,7 +72,7 @@
         </li>
         </ol>
     </p>
-    <img src="./snapshots/userSelectedDishes.png">
+    <img src="./public/screenshots/userSelectedDishes.png">
     </li>
     <li>
     <p>
