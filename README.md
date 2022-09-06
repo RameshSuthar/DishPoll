@@ -26,7 +26,7 @@
 <hr>
 <ol>
     <li>
-    <p>Logging in/Logging out. For username and password, kindly refer src/redux/feature/usersDataSlice.js.js</p>
+    <p>Logging in/Logging out. For username and password, kindly refer src/redux/feature/usersDataSlice.js</p>
     <ol>
     <li>username: virat, password: kohli</li>
     <li>username: dhoni, password: singh</li>
